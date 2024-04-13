@@ -52,7 +52,7 @@ def plot_gamma_K14():
     # Plot results to compare with Kafexhiu's results (note that we multiply the flux with a constant factor since normalization is not known from Kafexhiu et al. 2014)
     fig=plt.figure(figsize=(10, 8))
     ax=plt.subplot(111)
-    ax.plot(np.log10(Eg*1.0e-9),np.log10(Eg**2*phi_K14*7.85e25),'r:',linewidth=5.0, label=r'{\rm Minh}')
+    ax.plot(np.log10(Eg*1.0e-9),np.log10(Eg**2*phi_K14*7.85e25),'r:',linewidth=3.0, label=r'{\rm Minh}')
 
     # Read the image for data    
     img = mpimg.imread("Kafexhiu_2014.png")
